@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+# Ce fichier setup.py est utilisé pour configurer le package Python 'nettoyage-de-code-legacy'.
+# Il définit les métadonnées nécessaires pour la distribution du package et son installation.
+
 # Lire le fichier README et garantir le bon encodage lors de sa lecture
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
