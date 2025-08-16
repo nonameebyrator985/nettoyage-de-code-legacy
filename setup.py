@@ -27,6 +27,6 @@ setup(
         'setuptools',
         'wheel',
     ],
-    # Les métadonnées du package sont fournies ci-dessus pour que les utilisateurs sachent à quoi s'attendre
+    # Les mots-clés aident à référencer le package dans les recherches
     keywords='nettoyage de code, analyse de code, outil Python',  # Ajustement des mots-clés pour une meilleure recherche
 )
