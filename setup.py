@@ -23,6 +23,10 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
+    install_requires=[  # Ajout des dépendances requises pour une meilleure compatibilité
+        'setuptools',
+        'wheel',
+    ],
     # Les métadonnées du package sont fournies ci-dessus pour que les utilisateurs sachent à quoi s'attendre
-    keywords='nettoyage de code, analyse de code, outil Python', # Ajustement des mots-clés pour une meilleure recherche
+    keywords='nettoyage de code, analyse de code, outil Python',  # Ajustement des mots-clés pour une meilleure recherche
 )
