@@ -21,4 +21,5 @@ setup(
     ],
     python_requires='>=3.6',
     # Les métadonnées du package sont fournies ci-dessus pour que les utilisateurs sachent à quoi s'attendre
+    keywords='code nettoyage, analyse code, outil python', # Ajout d'exemples de mots-clés pour la recherche du package
 )
