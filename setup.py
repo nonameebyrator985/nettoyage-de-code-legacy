@@ -5,7 +5,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     description='Un outil Python pour analyser et nettoyer le code hérité.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', 'r', encoding='utf-8').read(),  # Ensure correct encoding when reading the README file
     long_description_content_type='text/markdown',
     url='https://github.com/votre-utilisateur/nettoyage-de-code-legacy',
     author='Votre Nom',
