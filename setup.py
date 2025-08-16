@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-# Read the README file and ensure correct encoding when reading it
+# Lire le fichier README et garantir le bon encodage lors de sa lecture
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
@@ -20,4 +20,5 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
+    # Les métadonnées du package sont fournies ci-dessus pour que les utilisateurs sachent à quoi s'attendre
 )
